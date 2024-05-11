@@ -12,6 +12,7 @@ services:
     environment:
       TZ: 'America/Fortaleza'
       WEBPASSWORD: ''
+      VIRTUAL_HOST: "pihole.zq"
     # Volumes store your data between container upgrades
     #volumes:
       #- './etc-pihole:/etc/pihole'
